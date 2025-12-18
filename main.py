@@ -8,7 +8,6 @@ def print_header(title):
     print(title)
     print("=" * 60)
 
-
 with open("schedule.yaml", "r", encoding="utf-8") as file:
     lines = file.readlines()
 
